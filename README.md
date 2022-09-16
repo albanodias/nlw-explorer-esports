@@ -6,9 +6,7 @@
 
 Projeto construído do evento Next Level Week da Rocketseat.
 
-[🔗 Clique aqui para acessar](https://github.com/albanodias/nlw-explorer-esports/)
-
-## 🛠 Tecnologias
+5## 🛠 Tecnologias
 
 - HTML
 - CSS
