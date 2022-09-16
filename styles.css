@@ -10,7 +10,7 @@ ul {
 
 body {
   background-image: url(./assets/bg.jpg);
-  backgroung-position: top center;
+  background-position: top center;
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #121214;
@@ -22,7 +22,7 @@ body * {
 }
 
 header {
-  margin-top: 32px;
+  padding-top: 32px;
   height: calc(120px + 32px);
 }
 
@@ -35,7 +35,9 @@ header div {
     #43e7ad 50.52%,
     #e2d45c 100%
   );
+
   border-radius: 50%;
+
   display: flex;
   padding: 4px;
 
@@ -80,7 +82,7 @@ section div {
 }
 
 section h2 {
-  letter-spacing: -0, 47px;
+  letter-spacing: -0.47px;
 }
 
 section p {
@@ -92,6 +94,7 @@ section ul {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+
   margin-top: 24px;
 }
 
@@ -114,7 +117,7 @@ section ul li:hover {
   border: 1px solid #443e54;
 }
 
-/* Animation */
+/* animation */
 
 header div {
   animation: fromTop 0.7s 0.2s backwards;
@@ -141,6 +144,7 @@ main section:nth-child(3) {
     opacity: 0;
     transform: translateY(-30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -152,6 +156,7 @@ main section:nth-child(3) {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
